@@ -30,7 +30,7 @@ export default function Home() {
   useEffect(() => {
       const userAgent = getMobileOperatingSystem();
       if(userAgent=="iOS")
-        router.push('https://google.com')
+        router.push('https://apps.apple.com/it/app/home-club-fitness-da-casa/id1541461033')
       else
         router.push('https://play.google.com/store/apps/details?id=gfg.app.hifit')
     }, [])
